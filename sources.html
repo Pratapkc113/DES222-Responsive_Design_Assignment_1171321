@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sources | Weathering Data</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .source-category {
+            scroll-margin-top: 6rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white/80 backdrop-blur-sm shadow-sm fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-xl font-bold gradient-text">Weathering Data</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="essay.html" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Visual Essay</a>
+                    <a href="future.html" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium">Future Visions</a>
+                    <a href="sources.html" class="text-blue-600 px-3 py-2 text-sm font-medium">Sources</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="menu-toggle" class="text-gray-900">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white/95 backdrop-blur-sm">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600">Home</a>
+                <a href="essay.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600">Visual Essay</a>
+                <a href="future.html" class="block px-3 py-2 text-base font-medium text-gray-900 hover:text-blue-600">Future Visions</a>
+                <a href="sources.html" class="block px-3 py-2 text-base font-medium text-blue-600">Sources</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sources Header -->
+    <div class="pt-24 pb-12 sm:pt-32 sm:pb-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-4" data-aos="fade-down">
+                    <span class="gradient-text">Sources & References</span>
+                </h1>
+                <p class="max-w-3xl mx-auto text-lg text-gray-700" data-aos="fade-up" data-aos-delay="100">
+                    Research materials, inspirations, and credits for the Weathering Data project
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sources Content -->
+    <div class="py-12 sm:py-16 lg:py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Navigation -->
+            <div class="mb-12 sticky top-16 bg-white/95 backdrop-blur-sm py-4 z-40">
+                <div class="flex overflow-x-auto space-x-4 pb-2">
+                    <a href="#art" class="whitespace-nowrap px-4 py-2 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition">Data Art</a>
+                    <a href="#science" class="whitespace-nowrap px-4 py-2 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition">Climate Science</a>
+                    <a href="#tech" class="whitespace-nowrap px-4 py-2 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition">Emerging Tech</a>
+                    <a href="#theory" class="whitespace-nowrap px-4 py-2 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition">Critical Theory</a>
+                    <a href="#projects" class="whitespace-nowrap px-4 py-2 bg-gray-100 rounded-full text-sm font-medium hover:bg-gray-200 transition">Related Projects</a>
+                </div>
+            </div>
+            
+            <!-- Data Art Section -->
+            <section id="art" class="mb-16 source-category" data-aos="fade-up">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i data-feather="pen-tool" class="mr-3 text-purple-500"></i>
+                    <span>Data Art & Visualization</span>
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Anadol, R. (2021). Machine Hallucinations: Nature Dreams</h3>
+                        <p class="text-gray-700 mb-3">
+                            A groundbreaking exhibition using AI to interpret environmental datasets as immersive visual experiences.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Eliasson, O. (2018). Ice Watch</h3>
+                        <p class="text-gray-700 mb-3">
+                            Installation bringing glacial ice to urban centers, making climate change viscerally present.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Holmes, N. (2019). Effective Data Visualization</h3>
+                        <p class="text-gray-700 mb-3">
+                            Key principles for creating visualizations that communicate complex information clearly and compellingly.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View book
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Climate Science Section -->
+            <section id="science" class="mb-16 source-category" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i data-feather="cloud" class="mr-3 text-blue-500"></i>
+                    <span>Climate Science & Data</span>
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">NASA Climate Change (2023). Vital Signs of the Planet</h3>
+                        <p class="text-gray-700 mb-3">
+                            Comprehensive datasets and visualizations tracking key climate indicators from NASA's Earth observation programs.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit website
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">IPCC (2022). Sixth Assessment Report</h3>
+                        <p class="text-gray-700 mb-3">
+                            The most comprehensive scientific assessment of climate change to date, with extensive data visualizations.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View report
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Hawkins, E. (2016). #ShowYourStripes</h3>
+                        <p class="text-gray-700 mb-3">
+                            Simple but powerful climate warming stripes visualization that has become a global phenomenon.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Emerging Tech Section -->
+            <section id="tech" class="mb-16 source-category" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i data-feather="cpu" class="mr-3 text-green-500"></i>
+                    <span>Emerging Technologies</span>
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Gabrys, J. (2016). Program Earth</h3>
+                        <p class="text-gray-700 mb-3">
+                            Examines how sensor technologies are changing our relationship with environments.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View book
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">MIT Media Lab (2022). Environmental Sensing Prototypes</h3>
+                        <p class="text-gray-700 mb-3">
+                            Cutting-edge research in next-generation environmental monitoring technologies.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">OpenAQ (2023). Open Air Quality Data Platform</h3>
+                        <p class="text-gray-700 mb-3">
+                            Global community aggregating and standardizing air quality data from governments and citizens.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit platform
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Critical Theory Section -->
+            <section id="theory" class="mb-16 source-category" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i data-feather="book" class="mr-3 text-yellow-500"></i>
+                    <span>Critical Theory</span>
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Parikka, J. (2015). A Geology of Media</h3>
+                        <p class="text-gray-700 mb-3">
+                            Traces the material basis of media technologies through Earth's resources and environments.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View book
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Bratton, B. (2016). The Stack</h3>
+                        <p class="text-gray-700 mb-3">
+                            Examines how planetary-scale computation intersects with and transforms Earth systems.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View book
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Haraway, D. (2016). Staying with the Trouble</h3>
+                        <p class="text-gray-700 mb-3">
+                            Explores how we might respond to environmental crises through new forms of storytelling and visualization.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            View book
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Related Projects Section -->
+            <section id="projects" class="source-category" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i data-feather="grid" class="mr-3 text-red-500"></i>
+                    <span>Related Projects</span>
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">EarthTime</h3>
+                        <p class="text-gray-700 mb-3">
+                            Interactive platform visualizing how Earth has changed over time using satellite imagery and data.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Wind Map</h3>
+                        <p class="text-gray-700 mb-3">
+                            Beautiful real-time visualization of wind patterns across the United States.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Aurora</h3>
+                        <p class="text-gray-700 mb-3">
+                            Immersive installation visualizing real-time solar wind data as dynamic light patterns.
+                        </p>
+                        <a href="#" class="text-blue-600 hover:underline text-sm flex items-center">
+                            <i data-feather="external-link" class="w-4 h-4 mr-1"></i>
+                            Visit project
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Methodology Note -->
+            <div class="mt-16 bg-blue-50 rounded-xl p-6" data-aos="fade-up">
+                <h3 class="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                    <i data-feather="info" class="mr-2 text-blue-500"></i>
+                    Methodology Note
+                </h3>
+                <p class="text-gray-700">
+                    This visual essay draws on a wide range of sources spanning art, science, technology and critical theory. The selection prioritizes works that bridge these disciplines, particularly those that explore innovative ways of representing and interacting with environmental data. While many specific projects and publications are cited here, the essay is also informed by broader engagement with environmental media studies, data visualization practice, and climate communication research.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Weathering Data</h3>
+                    <p class="text-gray-400">
+                        A visual essay exploring the intersection of environmental sensing, data art, and human perception in the Anthropocene.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Navigation</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="essay.html" class="text-gray-400 hover:text-white transition">Visual Essay</a></li>
+                        <li><a href="future.html" class="text-gray-400 hover:text-white transition">Future Visions</a></li>
+                        <li><a href="sources.html" class="text-gray-400 hover:text-white transition">Sources</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
+                <p>© 2023 Weathering Data. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+        
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
